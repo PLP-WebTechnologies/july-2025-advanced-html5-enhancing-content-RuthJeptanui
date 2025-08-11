@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Education Fair</title>
+</head>
+<body>
+    <!-- header -->
+     <header>
+        <h1>Education Fair</h1>
+        <p>Welcome to an amazing education fair where we make meaningful connections</p>
+     </header>
+
+     <!-- main content -->
+
+      <!-- highlights -->
+      <section>
+        <H2>Education fair highlights</H2>
+        <ul>
+            <li>Arrivals</li>
+            <li>Keynote speakers</li>
+            <li>Q&A and  interactions</li>
+        </ul>
+      </section>
+
+      <!-- schedule -->
+       <section>
+        <h2>The schedule is as follows</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Time</th>
+                    <th>Duration</th>
+                    <th>Session/Program</th>
+                    <th>Speasker/Lead</th>
+
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>10:00</td>
+                    <td>45 minutes</td>
+                    <td>Lets talk tech</td>
+                    <td>Ruth Jeptanui</td>
+                </tr>
+                <tr>
+                    <td>10:50</td>
+                    <td>1 hour</td>
+                    <td>Why AI is fun.</td>
+                    <td>Morara Matunda</td>
+                </tr>
+                <tr>
+                    <td>2:00</td>
+                    <td>Untill 5</td>
+                    <td>Q&A, </td>
+                    <td>Participants and all speakers guests and panelist</td>
+                </tr>
+            </tbody>
+        </table>
+       </section>
+
+       <!-- media -->
+        <section>
+            <h2>Media preview</h2>
+            <img src="#" alt="Education fair" >
+            <video controls autoplay  >
+                <source src="#" type="video/mp4">
+            </video>
+            <audio autoplay controls >
+                <source src="#" type="video/mp3">
+            </audio>
+        </section>
+
+        <!-- form for registration -->
+         <section>
+            <h2>Registration form</h2>
+
+           <form action="#" method="post" autocomplete="on" autocorrect="on" >
+             <fieldset>
+                <legend>Personal information</legend>
+
+                <label for="fullname">Full Name</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Please enter your Full Name" required>
+
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="Please enter your Email" required>
+
+                <label for="phone">Phone Number</label>
+                <input type="text" id="phone" name="phone" placeholder="Please enter your Phone number" required>
+
+                <label for="institution"> Institution</label>
+                <input type="text" id="institution" name="institution" placeholder="Name your institution">
+            </fieldset>
+
+            <fieldset>
+                <legend>Tickets</legend>
+
+                <label for="tickets">Tickets type</label>
+                <select name="tickets" id="tickets" required>
+                    <option value=""> Select Ticket of your choice</option>
+                    <option value="vvip">VVIP</option>
+                    <option value="vip">VIP</option>
+                    <option value="standard">Standard</option>
+                    <option value="regular">Regular</option>
+                </select>
+
+                <label for="country"> Choose your Country *</label>
+                    <input list="countries" id="country" name="country" placeholder="Choose..." required>
+                    <datalist id="countries">
+                        <option value="Kenya">
+                        <option value="Uganda">
+                        <option value="Tanzania">
+                        <option value="Ethiopia">
+                    </datalist>
+                
+                <label for="diet">Diet Preferences</label>
+                <textarea name="diet" id="diet" rows="2" placeholder="Enter the diet yoy prefer" ></textarea>
+
+            </fieldset>
+
+            <button type="submit">Submit Registration</button>
+           </form>
+         </section>
+
+         <!-- footer -->
+
+         <footer>
+            <p>&copy; 2025 Education Fair. All rights reserved.</p>
+        </footer>
+    
+</body>
+</html>
